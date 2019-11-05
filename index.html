@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Случайный цвет
+        </title>
+        <script type="text/javascript" src="js/script.js"> </script>
+        <link rel='stylesheet'type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="colorForm">
+            <p>Ширина: <input id="width" onchange="changeWidth()" type="number" placeholder="100"></p>
+            <p>Высота: <input id="height" onchange="changeHeight()" type="number" placeholder="100"></p>
+            <input type="button" onclick="randomColor()" value="Случайный цвет">
+        </div>
+        <hr width="100%"/>
+        <div class="colorPlace" id="color">
+        </div>
+    </body>
